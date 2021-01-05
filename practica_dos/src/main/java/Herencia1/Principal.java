@@ -16,6 +16,10 @@ public class Principal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        /*En relación al punto 3, verifcar si en el constructor 
+        Mexicano o Americano puede ir el llamado super(....,....,....) 
+        después de la inicialización del atributo curp o ssn.*/ 
+        //Respuesta: No puede ir el llamado super despues del atributo CURP
         // TODO code application logic here
         Mexicano vuj = new Mexicano("Victor", "Uribe j", 25,"cuasasd");
         System.out.println(vuj.getInformacion());
